@@ -5,22 +5,26 @@ html {
     background-size: 100%;
     background-size: cover;
 }
+
 body {
     font-family: Roboto, Sans-serif;
     font-size: 16px;
     color: black;
     margin: 0;
 }
+
 .outer {
     display: table;
     position: absolute;
     height: 100%;
     width: 100%;
 }
+
 .middle {
     display: table-cell;
     vertical-align: middle;
 }
+
 .inner {
     margin-left: auto;
     margin-right: auto;
@@ -29,6 +33,7 @@ body {
     text-align: center;
     position: relative;
 }
+
 .container {
     background: #dbe9ff;
     border-radius: 5%;
@@ -38,9 +43,11 @@ body {
     height: 300px;
     position: absolute;
 }
+
 #social-div a {
     font-size: 24px;
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -67,18 +74,23 @@ p {
 .fa-reddit:hover {
     color: #FF4200;
 }
+
 .fa-youtube:hover {
     color: #FC0100;
 }
+
 .fa-twitter:hover {
     color: #1DA1F3;
 }
+
 .fa-github:hover {
     color: #ffffff;
 }
+
 .fa-stack-overflow:hover {
     color: #FF7C12;
 }
+
 /*#email {
     text-decoration: none;
 }
