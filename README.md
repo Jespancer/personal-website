@@ -1,5 +1,7 @@
 # Personal website
 
-Currently live is version #1 of my personal website:
+Version 1.0 of my personal website:
 
 - Social media links
+
+This repository is not live.
