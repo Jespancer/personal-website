@@ -189,8 +189,6 @@ img {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
-  display: flex;
-  align-items: center;
 
   @include mobile {
     float: none;
