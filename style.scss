@@ -180,8 +180,17 @@ img {
   }
 }
 
-.site-name {
+.site-info {
   float: left;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.site-name {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
@@ -189,12 +198,15 @@ img {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
-  margin-top: 10px;
+}
+
+.site-description {
+  margin: -5px 0 0 0;
+  color: $gray;
+  font-size: 16px;
 
   @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
+    margin: 3px 0;
   }
 }
 
