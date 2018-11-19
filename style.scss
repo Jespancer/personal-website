@@ -196,6 +196,14 @@ img {
     display: block;
     margin: 0 auto;
   }
+
+  a {
+    margin-top: -30px;
+  }
+
+  @include mobile {
+    margin-top: 0;
+  }
 }
 
 nav {
