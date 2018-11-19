@@ -9,7 +9,7 @@ name: Jespancer
 description: Web Developer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: images/braided.png
+avatar: https://pbs.twimg.com/profile_images/1055842700874932224/2A8BO73y_400x400.jpg
 
 #
 # Flags below are optional
@@ -25,7 +25,7 @@ footer-links:
   instagram:
   linkedin:
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: feed
   twitter: Jespancer
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
