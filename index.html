@@ -1,37 +1,18 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Web Developer Jespancer">
-    <meta name="keywords" content="HTML,CSS,JavaScript,Web,Developer,Jespancer">
-    <meta name="author" content="Jespancer">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jespancer</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" href="./images/braided.png">  
-</head>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-<body>
-    <div class="outer">
-        <div class="middle">
-            <div class="inner">
-                <div class="container"></div>
-            </div>
-            <div class="inner">
-                <img src="https://pbs.twimg.com/profile_images/1055842700874932224/2A8BO73y_400x400.jpg" alt="Picture of Jespancer" id="profilepic">
-                <h1>Jespancer</h1>
-                <p>Web Developer</p>
-                <div id="social-div">
-                    <a href="https://www.reddit.com/user/Jespancer" target="_blank" class="fa fa-reddit"></a>
-                    <a href="https://www.youtube.com/channel/UC2ekmM0BuxqyvHKX5ufwIEg/featured" target="_blank" class="fa fa-youtube"></a>
-                    <a href="https://twitter.com/jespancer" target="_blank" class="fa fa-twitter"></a>
-                    <a href="https://github.com/Jespancer" target="_blank" class="fa fa-github"></a>
-                    <a href="https://stackoverflow.com/users/10236539/jespancer" target="_blank" class="fa fa-stack-overflow"></a>
-                </div>
-                <!--<a id="email" href="mailto:hi@jespancer.com?Subject=Hi%20Jespancer!" target="_top"></a>-->
-            </div>
-        </div>
-    </div>
-</body>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
