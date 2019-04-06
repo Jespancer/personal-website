@@ -4,4 +4,4 @@ title:
 permalink: /about/
 ---
 
-I sometimes write blog posts.
+Plan is to start posting a blog post weekly.
