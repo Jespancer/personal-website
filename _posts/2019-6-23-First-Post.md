@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First Time
+title: First Post
 ---
 
 Here we go.
